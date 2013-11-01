@@ -3,7 +3,9 @@ A twitter client written in Javascript
 
 ## Usage
 
-	var error = function (err, response, body) {
+`npm i` to download dependencies (oauth).
+
+    var error = function (err, response, body) {
 		console.log('ERROR [%s]', err);
     };
     var success = function (data) {
