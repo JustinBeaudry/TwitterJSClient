@@ -23,7 +23,7 @@ describe('Twitter', function () {
         });
     });
 
-    it('should get timeline for a user', function (done) {
+    it('should get timeline for a user with 10 tweets', function (done) {
         var params = { screen_name: 'BoyCook', count: '10'};
         twitter.getUserTimeline(params, error,
             function (data) {
